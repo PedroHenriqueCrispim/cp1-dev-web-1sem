@@ -5,7 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vinhacity - Contato</title>
-</head>
+
+    <script>
+		function validarFormulario() {
+			var nome = document.forms["formulario"]["nome"].value;
+			var email = document.forms["formulario"]["email"].value;
+			var telefone = document.forms["formulario"]["telefone"].value;
+			if (nome == "" || email == "" || telefone == "") {
+				alert("Por favor, preencha todos os campos obrigatórios.");
+				return false;
+			}
+            alert("Obrigado por entrar em contato!");
+		}
+	</script>
 <body>
     <h1>Entre em contato</h1>
 	<form name="formulario" onsubmit="return validarFormulario()">
@@ -14,6 +26,9 @@
 		<label>E-mail:</label><br>
 		<input type="email" name="email"><br>
 		<label>Telefone:</label><br>
+        <input type="numero" name="telefone"><br>
+        <br>
+        <button type="submit" onclick="validarContato()">Enviar</button>
 
     <script src="script.js"></script>
 </body>
