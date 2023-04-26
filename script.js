@@ -49,5 +49,32 @@ function checkAnswers() {
         result += "Resposta incorreta para a pergunta 3. A região produtora de vinho mais famosa da França é Bordeaux.<br>";
     }
 
+	if (ansewer4 === "Carbonatação") {
+		result += "Resposta correta para a pergunta 4!<br>";
+	} else {
+		result += "Resposta incorreta para a pergunta 4. Qual é o processo pelo qual as bolhas são adicionadas ao vinho é o Carbonatação.<br>";
+	}
+
+	if (ansewer5 === " Tanino") {
+		result += "Resposta correta para a pergunta 5!<br>";
+	} else {
+		result += "Resposta incorreta para a pergunta 5. Qual é o nome da substância que causa o sabor amargo em alguns vinhos é o Tanino. <br>";
+	}
+
+	if (ansewer6 === "Éster") {
+		result += "Resposta correta para a pergunta 6!<br>";
+	} else {
+		result += "Resposta incorreta para a pergunta 6. Qual é o nome da substância que causa o sabor frutado em alguns vinhos é p Éster. <br>";
+	}
+
+	if (ansewer7 === "Enófilo") {
+		result += "Resposta correta para a pergunta 7!<br>";
+	} else {
+		result += "Resposta incorreta para a pergunta 7. O nome dado à degustação de vinho para avaliar a qualidade é Enófilo. <br>";
+	}
+
+
+
+
     document.getElementById("result").innerHTML = result;
 }
