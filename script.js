@@ -52,19 +52,19 @@ function checkAnswers() {
 	if (ansewer4 === "Carbonatação") {
 		result += "Resposta correta para a pergunta 4!<br>";
 	} else {
-		result += "Resposta incorreta para a pergunta 4. Qual é o processo pelo qual as bolhas são adicionadas ao vinho é o Carbonatação.<br>";
+		result += "Resposta incorreta para a pergunta 4. O processo pelo qual as bolhas são adicionadas ao vinho é o Carbonatação.<br>";
 	}
 
 	if (ansewer5 === " Tanino") {
 		result += "Resposta correta para a pergunta 5!<br>";
 	} else {
-		result += "Resposta incorreta para a pergunta 5. Qual é o nome da substância que causa o sabor amargo em alguns vinhos é o Tanino. <br>";
+		result += "Resposta incorreta para a pergunta 5. O nome da substância que causa o sabor amargo em alguns vinhos é o Tanino. <br>";
 	}
 
 	if (ansewer6 === "Éster") {
 		result += "Resposta correta para a pergunta 6!<br>";
 	} else {
-		result += "Resposta incorreta para a pergunta 6. Qual é o nome da substância que causa o sabor frutado em alguns vinhos é p Éster. <br>";
+		result += "Resposta incorreta para a pergunta 6. O nome da substância que causa o sabor frutado em alguns vinhos é Éster. <br>";
 	}
 
 	if (ansewer7 === "Enófilo") {
@@ -72,6 +72,27 @@ function checkAnswers() {
 	} else {
 		result += "Resposta incorreta para a pergunta 7. O nome dado à degustação de vinho para avaliar a qualidade é Enófilo. <br>";
 	}
+
+	if (ansewer8 === "Barrica") {
+		result += "Resposta correta para a pergunta 8!<br>";
+	} else {
+		result += "Resposta incorreta para a pergunta 8. O nome dado ao recipiente onde o vinho é envelhecido é Barrica <br>";
+	}
+
+	if (ansewer9 === "Passito") {
+		result += "Resposta correta para a pergunta 9!<br>";
+	} else {
+		result += "Resposta incorreta para a pergunta 9. O nome dado ao vinho feito a partir de uvas maduras colhidas tardiamente é Passito <br>";
+	}
+
+	if (ansewer10 === "GSM") {
+		result += "Resposta correta para a pergunta 10!<br>";
+	} else {
+		result += "Resposta incorreta para a pergunta 10. O nome dado ao vinho tinto feito a partir de uvas Grenache, Syrah e Mourvèdre é GSM <br>";
+	}
+
+
+
 
 
 
