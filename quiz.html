@@ -11,12 +11,21 @@
 	</script>
 </head>
 <body>
-    <div class="quiz-container">
-		<div id="question"></div>
-		<div id="choices"></div>
-		<button id="submit">Enviar</button>
-		<div id="score"></div>
-		<button id="restart">Recomeçar</button>
+	<div class="quiz-container"></div>
+
+
+	<h1>Pergunta 1: Qual é a uva mais plantada do mundo?</h1>
+	<input type="text" id="answer1">
+
+	<h1>Pergunta 2: Qual é a diferença entre um vinho tinto e um vinho branco?</h1>
+	<input type="text" id="answer2">
+
+	<h1>Pergunta 3: Qual é a região produtora de vinho mais famosa da França?</h1>
+	<input type="text" id="answer3">  <br><br><br>
+
+	<button onclick="checkAnswers()">Responder</button>
+
+	<p id="result"></p>
 	</div>
 
 	<script src="script.js"></script>
