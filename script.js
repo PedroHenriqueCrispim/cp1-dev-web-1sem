@@ -1,7 +1,4 @@
 /*index.html*/
-
-alert("Seja bem-vindo!");
-
 var background = ["red", "green", "blue"];
 var i = 0;
 
@@ -40,8 +37,6 @@ function quiz() {
 
 
 /*contato.html*/
-
-alert ("Vamos conhecer sobre vinho")
 
 function validarFormulario() {
 	var nome = document.forms["formulario"]["nome"].value;
