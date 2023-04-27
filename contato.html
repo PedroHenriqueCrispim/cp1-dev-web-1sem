@@ -20,6 +20,15 @@
 		}
 	</script>
 <body>
+
+	<div class="navbar">
+		<a class ="item1" href="index.html">Inicio</a>
+		<a class ="item2" href="quiz.html">Quiz</a>
+		<a class ="item3" href="sobre.html">Sobre</a>
+		<a class ="item4" href="contato.html">Contato</a>
+	</div>
+
+	<div class="indexcontato">
     <h1>Entre em contato</h1>
 	<form name="formulario" onsubmit="return validarFormulario()">
 		<label>Nome:</label><br>
@@ -29,7 +38,8 @@
 		<label>Telefone:</label><br>
         <input type="numero" name="telefone"><br>
         <br>
-        <button type="submit" onclick="validarContato()">Enviar</button>
+		<button id="button" onclick="validarContato()">Enviar</button>
+	</div>   
 
 		<footer>
 			@Todos os direitos reservados.
