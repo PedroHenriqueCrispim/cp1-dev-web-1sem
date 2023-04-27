@@ -37,15 +37,22 @@ function checkAnswers() {
 	let answer10 = document.getElementById("answer3").value.toLowerCase();
     let result = "";
 
+
     if (answer1 === "chardonnay") {
         result += "Resposta correta para a pergunta 1!<br>";
     } else {
         result += "Resposta incorreta para a pergunta 1. A uva mais plantada do mundo é a Chardonnay.<br>";
     }
 
-    if (answer2 === "cor") {
+    if (answer2 === "a cor") {
         result += "Resposta correta para a pergunta 2!<br>";
-    } else {
+		
+    } 
+	else if (answer2 === "cor"){
+		result += "Resposta correta para a pergunta 2!<br>";
+	}
+
+	else {
         result += "Resposta incorreta para a pergunta 2. A diferença entre um vinho tinto e um vinho branco é a cor.<br>";
     }
 
