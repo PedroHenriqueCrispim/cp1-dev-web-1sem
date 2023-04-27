@@ -2,13 +2,13 @@
 
 
 body {
-	background: linear-gradient(to right, #ffffff, #747474, #000000);
+	background: linear-gradient(to right, #b157c7, #a02424, #4da74d);
 	animation: changeColor 9s ease-in-out infinite;
   }
   
   @keyframes changeColor {
 	0% {
-	  background: linear-gradient(to right, #ffffff, #747474, #000000);
+	  background: linear-gradient(to right, #f40606, #e7b848, #2dcd38);
 	}
 	33.33% {
 	  background: linear-gradient(to right, #e4ff82, #52a1a1, #08a51d);
